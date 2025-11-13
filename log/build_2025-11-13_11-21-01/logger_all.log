@@ -1,0 +1,447 @@
+[0.073s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.073s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=32, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x72257f598f40>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x72257f5989d0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x72257f5989d0>>, mixin_verb=('build',))
+[0.164s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.164s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.164s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.164s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.164s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.164s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.164s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/dronelab/vikram/slam-project'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(depthai-ros) by extensions ['ignore', 'ignore_ament_install']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(depthai-ros) by extension 'ignore'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(depthai-ros) by extension 'ignore_ament_install'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(depthai-ros) by extensions ['colcon_pkg']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(depthai-ros) by extension 'colcon_pkg'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(depthai-ros) by extensions ['colcon_meta']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(depthai-ros) by extension 'colcon_meta'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(depthai-ros) by extensions ['ros']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(depthai-ros) by extension 'ros'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(depthai-ros) by extensions ['cmake', 'python']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(depthai-ros) by extension 'cmake'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(depthai-ros) by extension 'python'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(depthai-ros) by extensions ['python_setup_py']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(depthai-ros) by extension 'python_setup_py'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros) by extensions ['ignore', 'ignore_ament_install']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros) by extension 'ignore'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros) by extension 'ignore_ament_install'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros) by extensions ['colcon_pkg']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros) by extension 'colcon_pkg'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros) by extensions ['colcon_meta']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros) by extension 'colcon_meta'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros) by extensions ['ros']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros) by extension 'ros'
+[0.179s] DEBUG:colcon.colcon_core.package_identification:Package 'src/depthai-ros' with type 'ros.ament_cmake' and name 'depthai-ros'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai_bridge) by extensions ['ignore', 'ignore_ament_install']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai_bridge) by extension 'ignore'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai_bridge) by extension 'ignore_ament_install'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai_bridge) by extensions ['colcon_pkg']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai_bridge) by extension 'colcon_pkg'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai_bridge) by extensions ['colcon_meta']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai_bridge) by extension 'colcon_meta'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai_bridge) by extensions ['ros']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai_bridge) by extension 'ros'
+[0.181s] DEBUG:colcon.colcon_core.package_identification:Package 'src/depthai_bridge' with type 'ros.ament_cmake' and name 'depthai_bridge'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai_descriptions) by extensions ['ignore', 'ignore_ament_install']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai_descriptions) by extension 'ignore'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai_descriptions) by extension 'ignore_ament_install'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai_descriptions) by extensions ['colcon_pkg']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai_descriptions) by extension 'colcon_pkg'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai_descriptions) by extensions ['colcon_meta']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai_descriptions) by extension 'colcon_meta'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai_descriptions) by extensions ['ros']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai_descriptions) by extension 'ros'
+[0.181s] DEBUG:colcon.colcon_core.package_identification:Package 'src/depthai_descriptions' with type 'ros.ament_cmake' and name 'depthai_descriptions'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai_examples) by extensions ['ignore', 'ignore_ament_install']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai_examples) by extension 'ignore'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai_examples) by extension 'ignore_ament_install'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai_examples) by extensions ['colcon_pkg']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai_examples) by extension 'colcon_pkg'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai_examples) by extensions ['colcon_meta']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai_examples) by extension 'colcon_meta'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai_examples) by extensions ['ros']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai_examples) by extension 'ros'
+[0.183s] DEBUG:colcon.colcon_core.package_identification:Package 'src/depthai_examples' with type 'ros.ament_cmake' and name 'depthai_examples'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai_filters) by extensions ['ignore', 'ignore_ament_install']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai_filters) by extension 'ignore'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai_filters) by extension 'ignore_ament_install'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai_filters) by extensions ['colcon_pkg']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai_filters) by extension 'colcon_pkg'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai_filters) by extensions ['colcon_meta']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai_filters) by extension 'colcon_meta'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai_filters) by extensions ['ros']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai_filters) by extension 'ros'
+[0.184s] DEBUG:colcon.colcon_core.package_identification:Package 'src/depthai_filters' with type 'ros.ament_cmake' and name 'depthai_filters'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai_ros_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai_ros_driver) by extension 'ignore'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai_ros_driver) by extension 'ignore_ament_install'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai_ros_driver) by extensions ['colcon_pkg']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai_ros_driver) by extension 'colcon_pkg'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai_ros_driver) by extensions ['colcon_meta']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai_ros_driver) by extension 'colcon_meta'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai_ros_driver) by extensions ['ros']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai_ros_driver) by extension 'ros'
+[0.185s] DEBUG:colcon.colcon_core.package_identification:Package 'src/depthai_ros_driver' with type 'ros.ament_cmake' and name 'depthai_ros_driver'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai_ros_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai_ros_msgs) by extension 'ignore'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai_ros_msgs) by extension 'ignore_ament_install'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai_ros_msgs) by extensions ['colcon_pkg']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai_ros_msgs) by extension 'colcon_pkg'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai_ros_msgs) by extensions ['colcon_meta']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai_ros_msgs) by extension 'colcon_meta'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai_ros_msgs) by extensions ['ros']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai_ros_msgs) by extension 'ros'
+[0.186s] DEBUG:colcon.colcon_core.package_identification:Package 'src/depthai_ros_msgs' with type 'ros.ament_cmake' and name 'depthai_ros_msgs'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/ffmpeg_image_transport_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/ffmpeg_image_transport_msgs) by extension 'ignore'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/ffmpeg_image_transport_msgs) by extension 'ignore_ament_install'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/ffmpeg_image_transport_msgs) by extensions ['colcon_pkg']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/ffmpeg_image_transport_msgs) by extension 'colcon_pkg'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/ffmpeg_image_transport_msgs) by extensions ['colcon_meta']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/ffmpeg_image_transport_msgs) by extension 'colcon_meta'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/ffmpeg_image_transport_msgs) by extensions ['ros']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/ffmpeg_image_transport_msgs) by extension 'ros'
+[0.187s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ffmpeg_image_transport_msgs' with type 'ros.ament_cmake' and name 'ffmpeg_image_transport_msgs'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-humble-backward-ros) by extensions ['ignore', 'ignore_ament_install']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-humble-backward-ros) by extension 'ignore'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-humble-backward-ros) by extension 'ignore_ament_install'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-humble-backward-ros) by extensions ['colcon_pkg']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-humble-backward-ros) by extension 'colcon_pkg'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-humble-backward-ros) by extensions ['colcon_meta']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-humble-backward-ros) by extension 'colcon_meta'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-humble-backward-ros) by extensions ['ros']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-humble-backward-ros) by extension 'ros'
+[0.187s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2-humble-backward-ros' with type 'ros.ament_cmake' and name 'backward_ros'
+[0.187s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.187s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.187s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.187s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.187s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.201s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.201s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.203s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 364 installed packages in /opt/ros/humble
+[0.204s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'backward_ros' build argument 'cmake_args' from command line to 'None'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'backward_ros' build argument 'cmake_target' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'backward_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'backward_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'backward_ros' build argument 'cmake_clean_first' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'backward_ros' build argument 'cmake_force_configure' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'backward_ros' build argument 'ament_cmake_args' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'backward_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'backward_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.227s] DEBUG:colcon.colcon_core.verb:Building package 'backward_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dronelab/vikram/slam-project/build/backward_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dronelab/vikram/slam-project/install/backward_ros', 'merge_install': False, 'path': '/home/dronelab/vikram/slam-project/src/ros2-humble-backward-ros', 'symlink_install': False, 'test_result_base': None}
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'depthai_descriptions' build argument 'cmake_args' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'depthai_descriptions' build argument 'cmake_target' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'depthai_descriptions' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'depthai_descriptions' build argument 'cmake_clean_cache' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'depthai_descriptions' build argument 'cmake_clean_first' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'depthai_descriptions' build argument 'cmake_force_configure' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'depthai_descriptions' build argument 'ament_cmake_args' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'depthai_descriptions' build argument 'catkin_cmake_args' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'depthai_descriptions' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.227s] DEBUG:colcon.colcon_core.verb:Building package 'depthai_descriptions' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dronelab/vikram/slam-project/build/depthai_descriptions', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dronelab/vikram/slam-project/install/depthai_descriptions', 'merge_install': False, 'path': '/home/dronelab/vikram/slam-project/src/depthai_descriptions', 'symlink_install': False, 'test_result_base': None}
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'depthai_ros_msgs' build argument 'cmake_args' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'depthai_ros_msgs' build argument 'cmake_target' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'depthai_ros_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'depthai_ros_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'depthai_ros_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'depthai_ros_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'depthai_ros_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'depthai_ros_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'depthai_ros_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.227s] DEBUG:colcon.colcon_core.verb:Building package 'depthai_ros_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dronelab/vikram/slam-project/build/depthai_ros_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dronelab/vikram/slam-project/install/depthai_ros_msgs', 'merge_install': False, 'path': '/home/dronelab/vikram/slam-project/src/depthai_ros_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'ffmpeg_image_transport_msgs' build argument 'cmake_args' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'ffmpeg_image_transport_msgs' build argument 'cmake_target' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'ffmpeg_image_transport_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'ffmpeg_image_transport_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'ffmpeg_image_transport_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'ffmpeg_image_transport_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'ffmpeg_image_transport_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'ffmpeg_image_transport_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'ffmpeg_image_transport_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.228s] DEBUG:colcon.colcon_core.verb:Building package 'ffmpeg_image_transport_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dronelab/vikram/slam-project/build/ffmpeg_image_transport_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dronelab/vikram/slam-project/install/ffmpeg_image_transport_msgs', 'merge_install': False, 'path': '/home/dronelab/vikram/slam-project/src/ffmpeg_image_transport_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'depthai_bridge' build argument 'cmake_args' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'depthai_bridge' build argument 'cmake_target' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'depthai_bridge' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'depthai_bridge' build argument 'cmake_clean_cache' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'depthai_bridge' build argument 'cmake_clean_first' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'depthai_bridge' build argument 'cmake_force_configure' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'depthai_bridge' build argument 'ament_cmake_args' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'depthai_bridge' build argument 'catkin_cmake_args' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'depthai_bridge' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.228s] DEBUG:colcon.colcon_core.verb:Building package 'depthai_bridge' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dronelab/vikram/slam-project/build/depthai_bridge', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dronelab/vikram/slam-project/install/depthai_bridge', 'merge_install': False, 'path': '/home/dronelab/vikram/slam-project/src/depthai_bridge', 'symlink_install': False, 'test_result_base': None}
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'depthai_filters' build argument 'cmake_args' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'depthai_filters' build argument 'cmake_target' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'depthai_filters' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'depthai_filters' build argument 'cmake_clean_cache' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'depthai_filters' build argument 'cmake_clean_first' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'depthai_filters' build argument 'cmake_force_configure' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'depthai_filters' build argument 'ament_cmake_args' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'depthai_filters' build argument 'catkin_cmake_args' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'depthai_filters' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.228s] DEBUG:colcon.colcon_core.verb:Building package 'depthai_filters' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dronelab/vikram/slam-project/build/depthai_filters', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dronelab/vikram/slam-project/install/depthai_filters', 'merge_install': False, 'path': '/home/dronelab/vikram/slam-project/src/depthai_filters', 'symlink_install': False, 'test_result_base': None}
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'depthai_examples' build argument 'cmake_args' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'depthai_examples' build argument 'cmake_target' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'depthai_examples' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'depthai_examples' build argument 'cmake_clean_cache' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'depthai_examples' build argument 'cmake_clean_first' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'depthai_examples' build argument 'cmake_force_configure' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'depthai_examples' build argument 'ament_cmake_args' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'depthai_examples' build argument 'catkin_cmake_args' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'depthai_examples' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.228s] DEBUG:colcon.colcon_core.verb:Building package 'depthai_examples' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dronelab/vikram/slam-project/build/depthai_examples', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dronelab/vikram/slam-project/install/depthai_examples', 'merge_install': False, 'path': '/home/dronelab/vikram/slam-project/src/depthai_examples', 'symlink_install': False, 'test_result_base': None}
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'depthai_ros_driver' build argument 'cmake_args' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'depthai_ros_driver' build argument 'cmake_target' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'depthai_ros_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'depthai_ros_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'depthai_ros_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'depthai_ros_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'depthai_ros_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'depthai_ros_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'depthai_ros_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.229s] DEBUG:colcon.colcon_core.verb:Building package 'depthai_ros_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dronelab/vikram/slam-project/build/depthai_ros_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dronelab/vikram/slam-project/install/depthai_ros_driver', 'merge_install': False, 'path': '/home/dronelab/vikram/slam-project/src/depthai_ros_driver', 'symlink_install': False, 'test_result_base': None}
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'depthai-ros' build argument 'cmake_args' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'depthai-ros' build argument 'cmake_target' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'depthai-ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'depthai-ros' build argument 'cmake_clean_cache' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'depthai-ros' build argument 'cmake_clean_first' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'depthai-ros' build argument 'cmake_force_configure' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'depthai-ros' build argument 'ament_cmake_args' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'depthai-ros' build argument 'catkin_cmake_args' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'depthai-ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.229s] DEBUG:colcon.colcon_core.verb:Building package 'depthai-ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dronelab/vikram/slam-project/build/depthai-ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dronelab/vikram/slam-project/install/depthai-ros', 'merge_install': False, 'path': '/home/dronelab/vikram/slam-project/src/depthai-ros', 'symlink_install': False, 'test_result_base': None}
+[0.229s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.230s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.230s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dronelab/vikram/slam-project/src/depthai_ros_msgs' with build type 'ament_cmake'
+[0.230s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dronelab/vikram/slam-project/src/depthai_ros_msgs'
+[0.231s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.232s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.232s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.234s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dronelab/vikram/slam-project/src/ffmpeg_image_transport_msgs' with build type 'ament_cmake'
+[0.234s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dronelab/vikram/slam-project/src/ffmpeg_image_transport_msgs'
+[0.234s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.234s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.235s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dronelab/vikram/slam-project/src/ros2-humble-backward-ros' with build type 'ament_cmake'
+[0.235s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dronelab/vikram/slam-project/src/ros2-humble-backward-ros'
+[0.235s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.235s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.237s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dronelab/vikram/slam-project/src/depthai_descriptions' with build type 'ament_cmake'
+[0.237s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dronelab/vikram/slam-project/src/depthai_descriptions'
+[0.237s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.237s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.242s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dronelab/vikram/slam-project/build/depthai_ros_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dronelab/vikram/slam-project/build/depthai_ros_msgs -- -j32 -l32
+[0.243s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dronelab/vikram/slam-project/build/ffmpeg_image_transport_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dronelab/vikram/slam-project/build/ffmpeg_image_transport_msgs -- -j32 -l32
+[0.245s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dronelab/vikram/slam-project/build/backward_ros': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dronelab/vikram/slam-project/src/ros2-humble-backward-ros -DCMAKE_INSTALL_PREFIX=/home/dronelab/vikram/slam-project/install/backward_ros
+[0.247s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dronelab/vikram/slam-project/build/depthai_descriptions': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dronelab/vikram/slam-project/build/depthai_descriptions -- -j32 -l32
+[0.272s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dronelab/vikram/slam-project/build/depthai_descriptions' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dronelab/vikram/slam-project/build/depthai_descriptions -- -j32 -l32
+[0.301s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dronelab/vikram/slam-project/build/depthai_descriptions': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dronelab/vikram/slam-project/build/depthai_descriptions
+[0.309s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(depthai_descriptions)
+[0.314s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dronelab/vikram/slam-project/build/depthai_descriptions' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dronelab/vikram/slam-project/build/depthai_descriptions
+[0.316s] Level 1:colcon.colcon_core.environment:checking '/home/dronelab/vikram/slam-project/install/depthai_descriptions' for CMake module files
+[0.316s] Level 1:colcon.colcon_core.environment:checking '/home/dronelab/vikram/slam-project/install/depthai_descriptions' for CMake config files
+[0.317s] Level 1:colcon.colcon_core.shell:create_environment_hook('depthai_descriptions', 'cmake_prefix_path')
+[0.317s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dronelab/vikram/slam-project/install/depthai_descriptions/share/depthai_descriptions/hook/cmake_prefix_path.ps1'
+[0.318s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dronelab/vikram/slam-project/install/depthai_descriptions/share/depthai_descriptions/hook/cmake_prefix_path.dsv'
+[0.318s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dronelab/vikram/slam-project/install/depthai_descriptions/share/depthai_descriptions/hook/cmake_prefix_path.sh'
+[0.319s] Level 1:colcon.colcon_core.environment:checking '/home/dronelab/vikram/slam-project/install/depthai_descriptions/bin'
+[0.319s] Level 1:colcon.colcon_core.environment:checking '/home/dronelab/vikram/slam-project/install/depthai_descriptions/lib/pkgconfig/depthai_descriptions.pc'
+[0.320s] Level 1:colcon.colcon_core.environment:checking '/home/dronelab/vikram/slam-project/install/depthai_descriptions/lib/python3.10/site-packages'
+[0.320s] Level 1:colcon.colcon_core.environment:checking '/home/dronelab/vikram/slam-project/install/depthai_descriptions/bin'
+[0.320s] INFO:colcon.colcon_core.shell:Creating package script '/home/dronelab/vikram/slam-project/install/depthai_descriptions/share/depthai_descriptions/package.ps1'
+[0.321s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dronelab/vikram/slam-project/install/depthai_descriptions/share/depthai_descriptions/package.dsv'
+[0.322s] INFO:colcon.colcon_core.shell:Creating package script '/home/dronelab/vikram/slam-project/install/depthai_descriptions/share/depthai_descriptions/package.sh'
+[0.323s] INFO:colcon.colcon_core.shell:Creating package script '/home/dronelab/vikram/slam-project/install/depthai_descriptions/share/depthai_descriptions/package.bash'
+[0.323s] INFO:colcon.colcon_core.shell:Creating package script '/home/dronelab/vikram/slam-project/install/depthai_descriptions/share/depthai_descriptions/package.zsh'
+[0.324s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dronelab/vikram/slam-project/install/depthai_descriptions/share/colcon-core/packages/depthai_descriptions)
+[0.340s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(depthai_descriptions)
+[0.340s] Level 1:colcon.colcon_core.environment:checking '/home/dronelab/vikram/slam-project/install/depthai_descriptions' for CMake module files
+[0.340s] Level 1:colcon.colcon_core.environment:checking '/home/dronelab/vikram/slam-project/install/depthai_descriptions' for CMake config files
+[0.341s] Level 1:colcon.colcon_core.shell:create_environment_hook('depthai_descriptions', 'cmake_prefix_path')
+[0.341s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dronelab/vikram/slam-project/install/depthai_descriptions/share/depthai_descriptions/hook/cmake_prefix_path.ps1'
+[0.341s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dronelab/vikram/slam-project/install/depthai_descriptions/share/depthai_descriptions/hook/cmake_prefix_path.dsv'
+[0.342s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dronelab/vikram/slam-project/install/depthai_descriptions/share/depthai_descriptions/hook/cmake_prefix_path.sh'
+[0.342s] Level 1:colcon.colcon_core.environment:checking '/home/dronelab/vikram/slam-project/install/depthai_descriptions/bin'
+[0.342s] Level 1:colcon.colcon_core.environment:checking '/home/dronelab/vikram/slam-project/install/depthai_descriptions/lib/pkgconfig/depthai_descriptions.pc'
+[0.343s] Level 1:colcon.colcon_core.environment:checking '/home/dronelab/vikram/slam-project/install/depthai_descriptions/lib/python3.10/site-packages'
+[0.343s] Level 1:colcon.colcon_core.environment:checking '/home/dronelab/vikram/slam-project/install/depthai_descriptions/bin'
+[0.343s] INFO:colcon.colcon_core.shell:Creating package script '/home/dronelab/vikram/slam-project/install/depthai_descriptions/share/depthai_descriptions/package.ps1'
+[0.344s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dronelab/vikram/slam-project/install/depthai_descriptions/share/depthai_descriptions/package.dsv'
+[0.344s] INFO:colcon.colcon_core.shell:Creating package script '/home/dronelab/vikram/slam-project/install/depthai_descriptions/share/depthai_descriptions/package.sh'
+[0.344s] INFO:colcon.colcon_core.shell:Creating package script '/home/dronelab/vikram/slam-project/install/depthai_descriptions/share/depthai_descriptions/package.bash'
+[0.345s] INFO:colcon.colcon_core.shell:Creating package script '/home/dronelab/vikram/slam-project/install/depthai_descriptions/share/depthai_descriptions/package.zsh'
+[0.345s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dronelab/vikram/slam-project/install/depthai_descriptions/share/colcon-core/packages/depthai_descriptions)
+[0.481s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dronelab/vikram/slam-project/build/ffmpeg_image_transport_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dronelab/vikram/slam-project/build/ffmpeg_image_transport_msgs -- -j32 -l32
+[0.483s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dronelab/vikram/slam-project/build/depthai_ros_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dronelab/vikram/slam-project/build/depthai_ros_msgs -- -j32 -l32
+[0.525s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dronelab/vikram/slam-project/build/ffmpeg_image_transport_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dronelab/vikram/slam-project/build/ffmpeg_image_transport_msgs
+[0.568s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ffmpeg_image_transport_msgs)
+[0.569s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dronelab/vikram/slam-project/build/ffmpeg_image_transport_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dronelab/vikram/slam-project/build/ffmpeg_image_transport_msgs
+[0.569s] Level 1:colcon.colcon_core.environment:checking '/home/dronelab/vikram/slam-project/install/ffmpeg_image_transport_msgs' for CMake module files
+[0.570s] Level 1:colcon.colcon_core.environment:checking '/home/dronelab/vikram/slam-project/install/ffmpeg_image_transport_msgs' for CMake config files
+[0.570s] Level 1:colcon.colcon_core.shell:create_environment_hook('ffmpeg_image_transport_msgs', 'cmake_prefix_path')
+[0.570s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dronelab/vikram/slam-project/install/ffmpeg_image_transport_msgs/share/ffmpeg_image_transport_msgs/hook/cmake_prefix_path.ps1'
+[0.571s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dronelab/vikram/slam-project/install/ffmpeg_image_transport_msgs/share/ffmpeg_image_transport_msgs/hook/cmake_prefix_path.dsv'
+[0.571s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dronelab/vikram/slam-project/install/ffmpeg_image_transport_msgs/share/ffmpeg_image_transport_msgs/hook/cmake_prefix_path.sh'
+[0.571s] Level 1:colcon.colcon_core.environment:checking '/home/dronelab/vikram/slam-project/install/ffmpeg_image_transport_msgs/lib'
+[0.572s] Level 1:colcon.colcon_core.shell:create_environment_hook('ffmpeg_image_transport_msgs', 'ld_library_path_lib')
+[0.572s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dronelab/vikram/slam-project/install/ffmpeg_image_transport_msgs/share/ffmpeg_image_transport_msgs/hook/ld_library_path_lib.ps1'
+[0.572s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dronelab/vikram/slam-project/install/ffmpeg_image_transport_msgs/share/ffmpeg_image_transport_msgs/hook/ld_library_path_lib.dsv'
+[0.573s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dronelab/vikram/slam-project/install/ffmpeg_image_transport_msgs/share/ffmpeg_image_transport_msgs/hook/ld_library_path_lib.sh'
+[0.573s] Level 1:colcon.colcon_core.environment:checking '/home/dronelab/vikram/slam-project/install/ffmpeg_image_transport_msgs/bin'
+[0.573s] Level 1:colcon.colcon_core.environment:checking '/home/dronelab/vikram/slam-project/install/ffmpeg_image_transport_msgs/lib/pkgconfig/ffmpeg_image_transport_msgs.pc'
+[0.573s] Level 1:colcon.colcon_core.environment:checking '/home/dronelab/vikram/slam-project/install/ffmpeg_image_transport_msgs/lib/python3.10/site-packages'
+[0.573s] Level 1:colcon.colcon_core.environment:checking '/home/dronelab/vikram/slam-project/install/ffmpeg_image_transport_msgs/bin'
+[0.574s] INFO:colcon.colcon_core.shell:Creating package script '/home/dronelab/vikram/slam-project/install/ffmpeg_image_transport_msgs/share/ffmpeg_image_transport_msgs/package.ps1'
+[0.574s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dronelab/vikram/slam-project/install/ffmpeg_image_transport_msgs/share/ffmpeg_image_transport_msgs/package.dsv'
+[0.575s] INFO:colcon.colcon_core.shell:Creating package script '/home/dronelab/vikram/slam-project/install/ffmpeg_image_transport_msgs/share/ffmpeg_image_transport_msgs/package.sh'
+[0.575s] INFO:colcon.colcon_core.shell:Creating package script '/home/dronelab/vikram/slam-project/install/ffmpeg_image_transport_msgs/share/ffmpeg_image_transport_msgs/package.bash'
+[0.575s] INFO:colcon.colcon_core.shell:Creating package script '/home/dronelab/vikram/slam-project/install/ffmpeg_image_transport_msgs/share/ffmpeg_image_transport_msgs/package.zsh'
+[0.575s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dronelab/vikram/slam-project/install/ffmpeg_image_transport_msgs/share/colcon-core/packages/ffmpeg_image_transport_msgs)
+[0.622s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ffmpeg_image_transport_msgs)
+[0.622s] Level 1:colcon.colcon_core.environment:checking '/home/dronelab/vikram/slam-project/install/ffmpeg_image_transport_msgs' for CMake module files
+[0.622s] Level 1:colcon.colcon_core.environment:checking '/home/dronelab/vikram/slam-project/install/ffmpeg_image_transport_msgs' for CMake config files
+[0.622s] Level 1:colcon.colcon_core.shell:create_environment_hook('ffmpeg_image_transport_msgs', 'cmake_prefix_path')
+[0.622s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dronelab/vikram/slam-project/install/ffmpeg_image_transport_msgs/share/ffmpeg_image_transport_msgs/hook/cmake_prefix_path.ps1'
+[0.623s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dronelab/vikram/slam-project/install/ffmpeg_image_transport_msgs/share/ffmpeg_image_transport_msgs/hook/cmake_prefix_path.dsv'
+[0.623s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dronelab/vikram/slam-project/install/ffmpeg_image_transport_msgs/share/ffmpeg_image_transport_msgs/hook/cmake_prefix_path.sh'
+[0.623s] Level 1:colcon.colcon_core.environment:checking '/home/dronelab/vikram/slam-project/install/ffmpeg_image_transport_msgs/lib'
+[0.623s] Level 1:colcon.colcon_core.shell:create_environment_hook('ffmpeg_image_transport_msgs', 'ld_library_path_lib')
+[0.623s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dronelab/vikram/slam-project/install/ffmpeg_image_transport_msgs/share/ffmpeg_image_transport_msgs/hook/ld_library_path_lib.ps1'
+[0.624s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dronelab/vikram/slam-project/install/ffmpeg_image_transport_msgs/share/ffmpeg_image_transport_msgs/hook/ld_library_path_lib.dsv'
+[0.624s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dronelab/vikram/slam-project/install/ffmpeg_image_transport_msgs/share/ffmpeg_image_transport_msgs/hook/ld_library_path_lib.sh'
+[0.624s] Level 1:colcon.colcon_core.environment:checking '/home/dronelab/vikram/slam-project/install/ffmpeg_image_transport_msgs/bin'
+[0.624s] Level 1:colcon.colcon_core.environment:checking '/home/dronelab/vikram/slam-project/install/ffmpeg_image_transport_msgs/lib/pkgconfig/ffmpeg_image_transport_msgs.pc'
+[0.624s] Level 1:colcon.colcon_core.environment:checking '/home/dronelab/vikram/slam-project/install/ffmpeg_image_transport_msgs/lib/python3.10/site-packages'
+[0.624s] Level 1:colcon.colcon_core.environment:checking '/home/dronelab/vikram/slam-project/install/ffmpeg_image_transport_msgs/bin'
+[0.624s] INFO:colcon.colcon_core.shell:Creating package script '/home/dronelab/vikram/slam-project/install/ffmpeg_image_transport_msgs/share/ffmpeg_image_transport_msgs/package.ps1'
+[0.625s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dronelab/vikram/slam-project/install/ffmpeg_image_transport_msgs/share/ffmpeg_image_transport_msgs/package.dsv'
+[0.625s] INFO:colcon.colcon_core.shell:Creating package script '/home/dronelab/vikram/slam-project/install/ffmpeg_image_transport_msgs/share/ffmpeg_image_transport_msgs/package.sh'
+[0.625s] INFO:colcon.colcon_core.shell:Creating package script '/home/dronelab/vikram/slam-project/install/ffmpeg_image_transport_msgs/share/ffmpeg_image_transport_msgs/package.bash'
+[0.625s] INFO:colcon.colcon_core.shell:Creating package script '/home/dronelab/vikram/slam-project/install/ffmpeg_image_transport_msgs/share/ffmpeg_image_transport_msgs/package.zsh'
+[0.625s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dronelab/vikram/slam-project/install/ffmpeg_image_transport_msgs/share/colcon-core/packages/ffmpeg_image_transport_msgs)
+[0.691s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dronelab/vikram/slam-project/build/depthai_ros_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dronelab/vikram/slam-project/build/depthai_ros_msgs
+[0.692s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dronelab/vikram/slam-project/build/backward_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dronelab/vikram/slam-project/src/ros2-humble-backward-ros -DCMAKE_INSTALL_PREFIX=/home/dronelab/vikram/slam-project/install/backward_ros
+[0.693s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dronelab/vikram/slam-project/build/backward_ros': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dronelab/vikram/slam-project/build/backward_ros -- -j32 -l32
+[0.728s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(depthai_ros_msgs)
+[0.728s] Level 1:colcon.colcon_core.environment:checking '/home/dronelab/vikram/slam-project/install/depthai_ros_msgs' for CMake module files
+[0.728s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dronelab/vikram/slam-project/build/depthai_ros_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dronelab/vikram/slam-project/build/depthai_ros_msgs
+[0.729s] Level 1:colcon.colcon_core.environment:checking '/home/dronelab/vikram/slam-project/install/depthai_ros_msgs' for CMake config files
+[0.729s] Level 1:colcon.colcon_core.shell:create_environment_hook('depthai_ros_msgs', 'cmake_prefix_path')
+[0.729s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dronelab/vikram/slam-project/install/depthai_ros_msgs/share/depthai_ros_msgs/hook/cmake_prefix_path.ps1'
+[0.729s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dronelab/vikram/slam-project/install/depthai_ros_msgs/share/depthai_ros_msgs/hook/cmake_prefix_path.dsv'
+[0.729s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dronelab/vikram/slam-project/install/depthai_ros_msgs/share/depthai_ros_msgs/hook/cmake_prefix_path.sh'
+[0.730s] Level 1:colcon.colcon_core.environment:checking '/home/dronelab/vikram/slam-project/install/depthai_ros_msgs/lib'
+[0.730s] Level 1:colcon.colcon_core.shell:create_environment_hook('depthai_ros_msgs', 'ld_library_path_lib')
+[0.730s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dronelab/vikram/slam-project/install/depthai_ros_msgs/share/depthai_ros_msgs/hook/ld_library_path_lib.ps1'
+[0.730s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dronelab/vikram/slam-project/install/depthai_ros_msgs/share/depthai_ros_msgs/hook/ld_library_path_lib.dsv'
+[0.730s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dronelab/vikram/slam-project/install/depthai_ros_msgs/share/depthai_ros_msgs/hook/ld_library_path_lib.sh'
+[0.730s] Level 1:colcon.colcon_core.environment:checking '/home/dronelab/vikram/slam-project/install/depthai_ros_msgs/bin'
+[0.730s] Level 1:colcon.colcon_core.environment:checking '/home/dronelab/vikram/slam-project/install/depthai_ros_msgs/lib/pkgconfig/depthai_ros_msgs.pc'
+[0.730s] Level 1:colcon.colcon_core.environment:checking '/home/dronelab/vikram/slam-project/install/depthai_ros_msgs/lib/python3.10/site-packages'
+[0.731s] Level 1:colcon.colcon_core.environment:checking '/home/dronelab/vikram/slam-project/install/depthai_ros_msgs/bin'
+[0.731s] INFO:colcon.colcon_core.shell:Creating package script '/home/dronelab/vikram/slam-project/install/depthai_ros_msgs/share/depthai_ros_msgs/package.ps1'
+[0.731s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dronelab/vikram/slam-project/install/depthai_ros_msgs/share/depthai_ros_msgs/package.dsv'
+[0.731s] INFO:colcon.colcon_core.shell:Creating package script '/home/dronelab/vikram/slam-project/install/depthai_ros_msgs/share/depthai_ros_msgs/package.sh'
+[0.731s] INFO:colcon.colcon_core.shell:Creating package script '/home/dronelab/vikram/slam-project/install/depthai_ros_msgs/share/depthai_ros_msgs/package.bash'
+[0.732s] INFO:colcon.colcon_core.shell:Creating package script '/home/dronelab/vikram/slam-project/install/depthai_ros_msgs/share/depthai_ros_msgs/package.zsh'
+[0.732s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dronelab/vikram/slam-project/install/depthai_ros_msgs/share/colcon-core/packages/depthai_ros_msgs)
+[0.919s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(depthai_ros_msgs)
+[0.919s] Level 1:colcon.colcon_core.environment:checking '/home/dronelab/vikram/slam-project/install/depthai_ros_msgs' for CMake module files
+[0.920s] Level 1:colcon.colcon_core.environment:checking '/home/dronelab/vikram/slam-project/install/depthai_ros_msgs' for CMake config files
+[0.920s] Level 1:colcon.colcon_core.shell:create_environment_hook('depthai_ros_msgs', 'cmake_prefix_path')
+[0.921s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dronelab/vikram/slam-project/install/depthai_ros_msgs/share/depthai_ros_msgs/hook/cmake_prefix_path.ps1'
+[0.921s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dronelab/vikram/slam-project/install/depthai_ros_msgs/share/depthai_ros_msgs/hook/cmake_prefix_path.dsv'
+[0.921s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dronelab/vikram/slam-project/install/depthai_ros_msgs/share/depthai_ros_msgs/hook/cmake_prefix_path.sh'
+[0.921s] Level 1:colcon.colcon_core.environment:checking '/home/dronelab/vikram/slam-project/install/depthai_ros_msgs/lib'
+[0.921s] Level 1:colcon.colcon_core.shell:create_environment_hook('depthai_ros_msgs', 'ld_library_path_lib')
+[0.922s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dronelab/vikram/slam-project/install/depthai_ros_msgs/share/depthai_ros_msgs/hook/ld_library_path_lib.ps1'
+[0.922s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dronelab/vikram/slam-project/install/depthai_ros_msgs/share/depthai_ros_msgs/hook/ld_library_path_lib.dsv'
+[0.922s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dronelab/vikram/slam-project/install/depthai_ros_msgs/share/depthai_ros_msgs/hook/ld_library_path_lib.sh'
+[0.922s] Level 1:colcon.colcon_core.environment:checking '/home/dronelab/vikram/slam-project/install/depthai_ros_msgs/bin'
+[0.922s] Level 1:colcon.colcon_core.environment:checking '/home/dronelab/vikram/slam-project/install/depthai_ros_msgs/lib/pkgconfig/depthai_ros_msgs.pc'
+[0.922s] Level 1:colcon.colcon_core.environment:checking '/home/dronelab/vikram/slam-project/install/depthai_ros_msgs/lib/python3.10/site-packages'
+[0.922s] Level 1:colcon.colcon_core.environment:checking '/home/dronelab/vikram/slam-project/install/depthai_ros_msgs/bin'
+[0.923s] INFO:colcon.colcon_core.shell:Creating package script '/home/dronelab/vikram/slam-project/install/depthai_ros_msgs/share/depthai_ros_msgs/package.ps1'
+[0.923s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dronelab/vikram/slam-project/install/depthai_ros_msgs/share/depthai_ros_msgs/package.dsv'
+[0.923s] INFO:colcon.colcon_core.shell:Creating package script '/home/dronelab/vikram/slam-project/install/depthai_ros_msgs/share/depthai_ros_msgs/package.sh'
+[0.923s] INFO:colcon.colcon_core.shell:Creating package script '/home/dronelab/vikram/slam-project/install/depthai_ros_msgs/share/depthai_ros_msgs/package.bash'
+[0.923s] INFO:colcon.colcon_core.shell:Creating package script '/home/dronelab/vikram/slam-project/install/depthai_ros_msgs/share/depthai_ros_msgs/package.zsh'
+[0.924s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dronelab/vikram/slam-project/install/depthai_ros_msgs/share/colcon-core/packages/depthai_ros_msgs)
+[0.924s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dronelab/vikram/slam-project/src/depthai_bridge' with build type 'ament_cmake'
+[0.924s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dronelab/vikram/slam-project/src/depthai_bridge'
+[0.924s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.924s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.926s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dronelab/vikram/slam-project/src/depthai_filters' with build type 'ament_cmake'
+[0.926s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dronelab/vikram/slam-project/src/depthai_filters'
+[0.926s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.926s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.933s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dronelab/vikram/slam-project/build/depthai_filters': AMENT_PREFIX_PATH=/home/dronelab/vikram/slam-project/install/depthai_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dronelab/vikram/slam-project/install/depthai_ros_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/dronelab/vikram/slam-project/install/depthai_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dronelab/vikram/slam-project/install/depthai_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dronelab/vikram/slam-project/build/depthai_filters -- -j32 -l32
+[0.934s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dronelab/vikram/slam-project/build/depthai_bridge': AMENT_PREFIX_PATH=/home/dronelab/vikram/slam-project/install/ffmpeg_image_transport_msgs:/home/dronelab/vikram/slam-project/install/depthai_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dronelab/vikram/slam-project/install/ffmpeg_image_transport_msgs:/home/dronelab/vikram/slam-project/install/depthai_ros_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/dronelab/vikram/slam-project/install/ffmpeg_image_transport_msgs/lib:/home/dronelab/vikram/slam-project/install/depthai_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dronelab/vikram/slam-project/install/ffmpeg_image_transport_msgs/local/lib/python3.10/dist-packages:/home/dronelab/vikram/slam-project/install/depthai_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dronelab/vikram/slam-project/build/depthai_bridge -- -j32 -l32
+[1.233s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dronelab/vikram/slam-project/build/depthai_filters' returned '2': AMENT_PREFIX_PATH=/home/dronelab/vikram/slam-project/install/depthai_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dronelab/vikram/slam-project/install/depthai_ros_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/dronelab/vikram/slam-project/install/depthai_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dronelab/vikram/slam-project/install/depthai_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dronelab/vikram/slam-project/build/depthai_filters -- -j32 -l32
+[1.270s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(depthai_filters)
+[1.270s] Level 1:colcon.colcon_core.environment:checking '/home/dronelab/vikram/slam-project/install/depthai_filters' for CMake module files
+[1.271s] Level 1:colcon.colcon_core.environment:checking '/home/dronelab/vikram/slam-project/install/depthai_filters' for CMake config files
+[1.271s] Level 1:colcon.colcon_core.environment:checking '/home/dronelab/vikram/slam-project/install/depthai_filters/bin'
+[1.271s] Level 1:colcon.colcon_core.environment:checking '/home/dronelab/vikram/slam-project/install/depthai_filters/lib/pkgconfig/depthai_filters.pc'
+[1.271s] Level 1:colcon.colcon_core.environment:checking '/home/dronelab/vikram/slam-project/install/depthai_filters/lib/python3.10/site-packages'
+[1.272s] Level 1:colcon.colcon_core.environment:checking '/home/dronelab/vikram/slam-project/install/depthai_filters/bin'
+[1.272s] INFO:colcon.colcon_core.shell:Creating package script '/home/dronelab/vikram/slam-project/install/depthai_filters/share/depthai_filters/package.ps1'
+[1.272s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dronelab/vikram/slam-project/install/depthai_filters/share/depthai_filters/package.dsv'
+[1.273s] INFO:colcon.colcon_core.shell:Creating package script '/home/dronelab/vikram/slam-project/install/depthai_filters/share/depthai_filters/package.sh'
+[1.273s] INFO:colcon.colcon_core.shell:Creating package script '/home/dronelab/vikram/slam-project/install/depthai_filters/share/depthai_filters/package.bash'
+[1.274s] INFO:colcon.colcon_core.shell:Creating package script '/home/dronelab/vikram/slam-project/install/depthai_filters/share/depthai_filters/package.zsh'
+[1.274s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dronelab/vikram/slam-project/install/depthai_filters/share/colcon-core/packages/depthai_filters)
+[5.138s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.138s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.138s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[5.138s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.144s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.144s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.144s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[5.159s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.159s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dronelab/vikram/slam-project/install/local_setup.ps1'
+[5.160s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dronelab/vikram/slam-project/install/_local_setup_util_ps1.py'
+[5.161s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dronelab/vikram/slam-project/install/setup.ps1'
+[5.161s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dronelab/vikram/slam-project/install/local_setup.sh'
+[5.162s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dronelab/vikram/slam-project/install/_local_setup_util_sh.py'
+[5.163s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dronelab/vikram/slam-project/install/setup.sh'
+[5.164s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dronelab/vikram/slam-project/install/local_setup.bash'
+[5.165s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dronelab/vikram/slam-project/install/setup.bash'
+[5.166s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dronelab/vikram/slam-project/install/local_setup.zsh'
+[5.166s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dronelab/vikram/slam-project/install/setup.zsh'

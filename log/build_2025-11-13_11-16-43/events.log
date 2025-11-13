@@ -1,0 +1,122 @@
+[0.000000] (-) TimerEvent: {}
+[0.000420] (-) JobUnselected: {'identifier': 'depthai-ros'}
+[0.000456] (-) JobUnselected: {'identifier': 'depthai_bridge'}
+[0.000474] (-) JobUnselected: {'identifier': 'depthai_descriptions'}
+[0.000490] (-) JobUnselected: {'identifier': 'depthai_examples'}
+[0.000504] (-) JobUnselected: {'identifier': 'depthai_ros_driver'}
+[0.000519] (-) JobUnselected: {'identifier': 'depthai_ros_msgs'}
+[0.000533] (-) JobUnselected: {'identifier': 'ffmpeg_image_transport_msgs'}
+[0.000549] (depthai_filters) JobQueued: {'identifier': 'depthai_filters', 'dependencies': OrderedDict([('depthai_ros_msgs', '/home/dronelab/vikram/slam-project/install/depthai_ros_msgs')])}
+[0.000568] (depthai_filters) JobStarted: {'identifier': 'depthai_filters'}
+[0.007205] (depthai_filters) JobProgress: {'identifier': 'depthai_filters', 'progress': 'cmake'}
+[0.007405] (depthai_filters) Command: {'cmd': ['/usr/bin/cmake', '/home/dronelab/vikram/slam-project/src/depthai_filters', '-DCMAKE_INSTALL_PREFIX=/home/dronelab/vikram/slam-project/install/depthai_filters'], 'cwd': '/home/dronelab/vikram/slam-project/build/depthai_filters', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dronelab'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/dronelab/vikram/slam-project/install/depthai_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/lib:/usr/lib:/usr/lib32:/usr/lib64:/usr/lib/x86_64-linux-gnu:/home/dronelab/ros2_ws/build/hesai_ros_driver/src/driver/HesaiLidar_SDK_2.0/libhesai/'), ('HOME', '/home/dronelab'), ('OLDPWD', '/home/dronelab/vikram/slam-project/src/depthai_filters'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/dronelab/.nvm/versions/node/v24.11.1/bin'), ('NVM_INC', '/home/dronelab/.nvm/versions/node/v24.11.1/include/node'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1932'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/dronelab/.nvm'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'dronelab'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dronelab'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/dronelab/.nvm/versions/node/v24.11.1/bin:/opt/ros/humble/bin:/home/dronelab/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/dambot-mini:@/tmp/.ICE-unix/1689,unix/dambot-mini:/tmp/.ICE-unix/1689'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/89d79876_c8a4_463f_9ff8_871092252771'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.316'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/dronelab/vikram/slam-project/install/depthai_ros_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dronelab/vikram/slam-project/build/depthai_filters'), ('QT_QPA_PLATFORM', 'xcb'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/dronelab/vikram/slam-project/install/depthai_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/dronelab/vikram/slam-project/install/depthai_ros_msgs:/opt/ros/humble')]), 'shell': False}
+[0.055931] (depthai_filters) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.094494] (depthai_filters) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099311] (depthai_filters) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.099883] (-) TimerEvent: {}
+[0.186772] (depthai_filters) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.191634] (depthai_filters) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.191824] (depthai_filters) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.192163] (depthai_filters) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.194543] (depthai_filters) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199946] (-) TimerEvent: {}
+[0.278363] (depthai_filters) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.286594] (depthai_filters) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.287082] (depthai_filters) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.287637] (depthai_filters) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.290399] (depthai_filters) StdoutLine: {'line': b'-- Found ament_cmake_auto: 1.3.9 (/opt/ros/humble/share/ament_cmake_auto/cmake)\n'}
+[0.300034] (-) TimerEvent: {}
+[0.400281] (-) TimerEvent: {}
+[0.421355] (depthai_filters) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.481844] (depthai_filters) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[0.500467] (-) TimerEvent: {}
+[0.517627] (depthai_filters) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.520473] (depthai_filters) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.525556] (depthai_filters) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.534058] (depthai_filters) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.545787] (depthai_filters) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.600680] (-) TimerEvent: {}
+[0.685032] (depthai_filters) StdoutLine: {'line': b'-- Found message_filters: 4.3.4 (/opt/ros/humble/share/message_filters/cmake)\n'}
+[0.700888] (-) TimerEvent: {}
+[0.723691] (depthai_filters) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.725231] (depthai_filters) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.801105] (-) TimerEvent: {}
+[0.809013] (depthai_filters) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.832631] (depthai_filters) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.869862] (depthai_filters) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.875984] (depthai_filters) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.901267] (-) TimerEvent: {}
+[0.933710] (depthai_filters) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.934066] (depthai_filters) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.001387] (-) TimerEvent: {}
+[1.037780] (depthai_filters) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.039646] (depthai_filters) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.101456] (-) TimerEvent: {}
+[1.201652] (-) TimerEvent: {}
+[1.301916] (-) TimerEvent: {}
+[1.402099] (-) TimerEvent: {}
+[1.461859] (depthai_filters) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.470646] (depthai_filters) StdoutLine: {'line': b'-- Generating done\n'}
+[1.471636] (depthai_filters) StdoutLine: {'line': b'-- Build files have been written to: /home/dronelab/vikram/slam-project/build/depthai_filters\n'}
+[1.477885] (depthai_filters) CommandEnded: {'returncode': 0}
+[1.478236] (depthai_filters) JobProgress: {'identifier': 'depthai_filters', 'progress': 'build'}
+[1.478736] (depthai_filters) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dronelab/vikram/slam-project/build/depthai_filters', '--', '-j32', '-l32'], 'cwd': '/home/dronelab/vikram/slam-project/build/depthai_filters', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dronelab'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/dronelab/vikram/slam-project/install/depthai_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/lib:/usr/lib:/usr/lib32:/usr/lib64:/usr/lib/x86_64-linux-gnu:/home/dronelab/ros2_ws/build/hesai_ros_driver/src/driver/HesaiLidar_SDK_2.0/libhesai/'), ('HOME', '/home/dronelab'), ('OLDPWD', '/home/dronelab/vikram/slam-project/src/depthai_filters'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/dronelab/.nvm/versions/node/v24.11.1/bin'), ('NVM_INC', '/home/dronelab/.nvm/versions/node/v24.11.1/include/node'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1932'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/dronelab/.nvm'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'dronelab'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dronelab'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/dronelab/.nvm/versions/node/v24.11.1/bin:/opt/ros/humble/bin:/home/dronelab/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/dambot-mini:@/tmp/.ICE-unix/1689,unix/dambot-mini:/tmp/.ICE-unix/1689'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/89d79876_c8a4_463f_9ff8_871092252771'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.316'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/dronelab/vikram/slam-project/install/depthai_ros_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dronelab/vikram/slam-project/build/depthai_filters'), ('QT_QPA_PLATFORM', 'xcb'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/dronelab/vikram/slam-project/install/depthai_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/dronelab/vikram/slam-project/install/depthai_ros_msgs:/opt/ros/humble')]), 'shell': False}
+[1.502280] (-) TimerEvent: {}
+[1.525219] (depthai_filters) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object CMakeFiles/depthai_filters.dir/src/segmentation_overlay.cpp.o\x1b[0m\n'}
+[1.526815] (depthai_filters) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/depthai_filters.dir/src/detection2d_overlay.cpp.o\x1b[0m\n'}
+[1.527293] (depthai_filters) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/depthai_filters.dir/src/spatial_bb.cpp.o\x1b[0m\n'}
+[1.527371] (depthai_filters) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/depthai_filters.dir/src/wls_filter.cpp.o\x1b[0m\n'}
+[1.527435] (depthai_filters) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/depthai_filters.dir/src/feature_tracker_overlay.cpp.o\x1b[0m\n'}
+[1.527762] (depthai_filters) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/depthai_filters.dir/src/thermal_temp.cpp.o\x1b[0m\n'}
+[1.527836] (depthai_filters) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/depthai_filters.dir/src/features_3d.cpp.o\x1b[0m\n'}
+[1.528112] (depthai_filters) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding CXX object CMakeFiles/depthai_filters.dir/src/utils.cpp.o\x1b[0m\n'}
+[1.535500] (depthai_filters) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/dronelab/vikram/slam-project/src/depthai_filters/src/feature_tracker_overlay.cpp:1\x1b[m\x1b[K:\n'}
+[1.535630] (depthai_filters) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dronelab/vikram/slam-project/src/depthai_filters/include/depthai_filters/feature_tracker_overlay.hpp:3:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kcv_bridge/cv_bridge.hpp: No such file or directory\n'}
+[1.535671] (depthai_filters) StderrLine: {'line': b'    3 | #include \x1b[01;31m\x1b[K"cv_bridge/cv_bridge.hpp"\x1b[m\x1b[K\n'}
+[1.535701] (depthai_filters) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.535729] (depthai_filters) StderrLine: {'line': b'compilation terminated.\n'}
+[1.536075] (depthai_filters) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/depthai_filters.dir/build.make:132: CMakeFiles/depthai_filters.dir/src/feature_tracker_overlay.cpp.o] Error 1\n'}
+[1.536162] (depthai_filters) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[1.602498] (-) TimerEvent: {}
+[1.618912] (depthai_filters) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dronelab/vikram/slam-project/src/depthai_filters/src/utils.cpp:3:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kcv_bridge/cv_bridge.hpp: No such file or directory\n'}
+[1.619035] (depthai_filters) StderrLine: {'line': b'    3 | #include \x1b[01;31m\x1b[K"cv_bridge/cv_bridge.hpp"\x1b[m\x1b[K\n'}
+[1.619074] (depthai_filters) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.619108] (depthai_filters) StderrLine: {'line': b'compilation terminated.\n'}
+[1.620195] (depthai_filters) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/depthai_filters.dir/build.make:174: CMakeFiles/depthai_filters.dir/src/utils.cpp.o] Error 1\n'}
+[1.657691] (depthai_filters) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dronelab/vikram/slam-project/src/depthai_filters/src/thermal_temp.cpp:3:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kcv_bridge/cv_bridge.hpp: No such file or directory\n'}
+[1.657826] (depthai_filters) StderrLine: {'line': b'    3 | #include \x1b[01;31m\x1b[K"cv_bridge/cv_bridge.hpp"\x1b[m\x1b[K\n'}
+[1.657860] (depthai_filters) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.657888] (depthai_filters) StderrLine: {'line': b'compilation terminated.\n'}
+[1.659519] (depthai_filters) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/depthai_filters.dir/build.make:160: CMakeFiles/depthai_filters.dir/src/thermal_temp.cpp.o] Error 1\n'}
+[1.660000] (depthai_filters) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/dronelab/vikram/slam-project/src/depthai_filters/src/spatial_bb.cpp:1\x1b[m\x1b[K:\n'}
+[1.660069] (depthai_filters) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dronelab/vikram/slam-project/src/depthai_filters/include/depthai_filters/spatial_bb.hpp:5:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kmessage_filters/sync_policies/latest_time.hpp: No such file or directory\n'}
+[1.660104] (depthai_filters) StderrLine: {'line': b'    5 | #include \x1b[01;31m\x1b[K"message_filters/sync_policies/latest_time.hpp"\x1b[m\x1b[K\n'}
+[1.660144] (depthai_filters) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.660171] (depthai_filters) StderrLine: {'line': b'compilation terminated.\n'}
+[1.660705] (depthai_filters) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dronelab/vikram/slam-project/src/depthai_filters/src/segmentation_overlay.cpp:3:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kcv_bridge/cv_bridge.hpp: No such file or directory\n'}
+[1.660774] (depthai_filters) StderrLine: {'line': b'    3 | #include \x1b[01;31m\x1b[K"cv_bridge/cv_bridge.hpp"\x1b[m\x1b[K\n'}
+[1.660807] (depthai_filters) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.660834] (depthai_filters) StderrLine: {'line': b'compilation terminated.\n'}
+[1.661511] (depthai_filters) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/depthai_filters.dir/build.make:104: CMakeFiles/depthai_filters.dir/src/spatial_bb.cpp.o] Error 1\n'}
+[1.662350] (depthai_filters) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/depthai_filters.dir/build.make:90: CMakeFiles/depthai_filters.dir/src/segmentation_overlay.cpp.o] Error 1\n'}
+[1.667546] (depthai_filters) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dronelab/vikram/slam-project/src/depthai_filters/src/detection2d_overlay.cpp:3:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kcv_bridge/cv_bridge.hpp: No such file or directory\n'}
+[1.667619] (depthai_filters) StderrLine: {'line': b'    3 | #include \x1b[01;31m\x1b[K"cv_bridge/cv_bridge.hpp"\x1b[m\x1b[K\n'}
+[1.667653] (depthai_filters) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.667685] (depthai_filters) StderrLine: {'line': b'compilation terminated.\n'}
+[1.669203] (depthai_filters) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/depthai_filters.dir/build.make:76: CMakeFiles/depthai_filters.dir/src/detection2d_overlay.cpp.o] Error 1\n'}
+[1.669640] (depthai_filters) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dronelab/vikram/slam-project/src/depthai_filters/src/features_3d.cpp:3:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kcv_bridge/cv_bridge.hpp: No such file or directory\n'}
+[1.669708] (depthai_filters) StderrLine: {'line': b'    3 | #include \x1b[01;31m\x1b[K"cv_bridge/cv_bridge.hpp"\x1b[m\x1b[K\n'}
+[1.669741] (depthai_filters) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.669768] (depthai_filters) StderrLine: {'line': b'compilation terminated.\n'}
+[1.671475] (depthai_filters) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/depthai_filters.dir/build.make:146: CMakeFiles/depthai_filters.dir/src/features_3d.cpp.o] Error 1\n'}
+[1.683548] (depthai_filters) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dronelab/vikram/slam-project/src/depthai_filters/src/wls_filter.cpp:5:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kcv_bridge/cv_bridge.hpp: No such file or directory\n'}
+[1.683621] (depthai_filters) StderrLine: {'line': b'    5 | #include \x1b[01;31m\x1b[K"cv_bridge/cv_bridge.hpp"\x1b[m\x1b[K\n'}
+[1.683654] (depthai_filters) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.683682] (depthai_filters) StderrLine: {'line': b'compilation terminated.\n'}
+[1.685541] (depthai_filters) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/depthai_filters.dir/build.make:118: CMakeFiles/depthai_filters.dir/src/wls_filter.cpp.o] Error 1\n'}
+[1.685751] (depthai_filters) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/depthai_filters.dir/all] Error 2\n'}
+[1.685939] (depthai_filters) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[1.687608] (depthai_filters) CommandEnded: {'returncode': 2}
+[1.702605] (-) TimerEvent: {}
+[1.744594] (depthai_filters) JobEnded: {'identifier': 'depthai_filters', 'rc': 2}
+[1.755315] (-) EventReactorShutdown: {}

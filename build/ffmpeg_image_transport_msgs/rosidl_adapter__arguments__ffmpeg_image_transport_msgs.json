@@ -1,0 +1,6 @@
+{
+  "package_name": "ffmpeg_image_transport_msgs",
+  "non_idl_tuples": [
+    "/home/dronelab/vikram/slam-project/src/ffmpeg_image_transport_msgs:msg/FFMPEGPacket.msg"
+  ]
+}

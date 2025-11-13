@@ -1,0 +1,55 @@
+[0.007s] Invoking command in '/home/dronelab/vikram/slam-project/build/depthai_filters': AMENT_PREFIX_PATH=/home/dronelab/vikram/slam-project/install/depthai_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dronelab/vikram/slam-project/install/depthai_ros_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/dronelab/vikram/slam-project/install/depthai_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dronelab/vikram/slam-project/install/depthai_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dronelab/vikram/slam-project/build/depthai_filters -- -j32 -l32
+[0.045s] [ 11%] [32mBuilding CXX object CMakeFiles/depthai_filters.dir/src/features_3d.cpp.o[0m
+[0.045s] [ 22%] [32mBuilding CXX object CMakeFiles/depthai_filters.dir/src/detection2d_overlay.cpp.o[0m
+[0.046s] [ 44%] [32mBuilding CXX object CMakeFiles/depthai_filters.dir/src/segmentation_overlay.cpp.o[0m
+[0.046s] [ 44%] [32mBuilding CXX object CMakeFiles/depthai_filters.dir/src/spatial_bb.cpp.o[0m
+[0.046s] [ 55%] [32mBuilding CXX object CMakeFiles/depthai_filters.dir/src/wls_filter.cpp.o[0m
+[0.047s] [ 77%] [32mBuilding CXX object CMakeFiles/depthai_filters.dir/src/feature_tracker_overlay.cpp.o[0m
+[0.047s] [ 77%] [32mBuilding CXX object CMakeFiles/depthai_filters.dir/src/utils.cpp.o[0m
+[0.047s] [ 88%] [32mBuilding CXX object CMakeFiles/depthai_filters.dir/src/thermal_temp.cpp.o[0m
+[0.055s] In file included from [01m[K/home/dronelab/vikram/slam-project/src/depthai_filters/src/feature_tracker_overlay.cpp:1[m[K:
+[0.055s] [01m[K/home/dronelab/vikram/slam-project/src/depthai_filters/include/depthai_filters/feature_tracker_overlay.hpp:3:10:[m[K [01;31m[Kfatal error: [m[Kcv_bridge/cv_bridge.hpp: No such file or directory
+[0.055s]     3 | #include [01;31m[K"cv_bridge/cv_bridge.hpp"[m[K
+[0.055s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.055s] compilation terminated.
+[0.055s] gmake[2]: *** [CMakeFiles/depthai_filters.dir/build.make:132: CMakeFiles/depthai_filters.dir/src/feature_tracker_overlay.cpp.o] Error 1
+[0.055s] gmake[2]: *** Waiting for unfinished jobs....
+[0.198s] [01m[K/home/dronelab/vikram/slam-project/src/depthai_filters/src/thermal_temp.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Kcv_bridge/cv_bridge.hpp: No such file or directory
+[0.198s]     3 | #include [01;31m[K"cv_bridge/cv_bridge.hpp"[m[K
+[0.198s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.198s] compilation terminated.
+[0.199s] gmake[2]: *** [CMakeFiles/depthai_filters.dir/build.make:160: CMakeFiles/depthai_filters.dir/src/thermal_temp.cpp.o] Error 1
+[0.203s] [01m[K/home/dronelab/vikram/slam-project/src/depthai_filters/src/detection2d_overlay.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Kcv_bridge/cv_bridge.hpp: No such file or directory
+[0.203s]     3 | #include [01;31m[K"cv_bridge/cv_bridge.hpp"[m[K
+[0.203s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.203s] compilation terminated.
+[0.204s] gmake[2]: *** [CMakeFiles/depthai_filters.dir/build.make:76: CMakeFiles/depthai_filters.dir/src/detection2d_overlay.cpp.o] Error 1
+[0.216s] [01m[K/home/dronelab/vikram/slam-project/src/depthai_filters/src/utils.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Kcv_bridge/cv_bridge.hpp: No such file or directory
+[0.216s]     3 | #include [01;31m[K"cv_bridge/cv_bridge.hpp"[m[K
+[0.216s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.216s] compilation terminated.
+[0.217s] gmake[2]: *** [CMakeFiles/depthai_filters.dir/build.make:174: CMakeFiles/depthai_filters.dir/src/utils.cpp.o] Error 1
+[0.231s] [01m[K/home/dronelab/vikram/slam-project/src/depthai_filters/src/wls_filter.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Kcv_bridge/cv_bridge.hpp: No such file or directory
+[0.231s]     5 | #include [01;31m[K"cv_bridge/cv_bridge.hpp"[m[K
+[0.231s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.231s] compilation terminated.
+[0.232s] gmake[2]: *** [CMakeFiles/depthai_filters.dir/build.make:118: CMakeFiles/depthai_filters.dir/src/wls_filter.cpp.o] Error 1
+[0.283s] [01m[K/home/dronelab/vikram/slam-project/src/depthai_filters/src/segmentation_overlay.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Kcv_bridge/cv_bridge.hpp: No such file or directory
+[0.283s]     3 | #include [01;31m[K"cv_bridge/cv_bridge.hpp"[m[K
+[0.283s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.283s] compilation terminated.
+[0.284s] gmake[2]: *** [CMakeFiles/depthai_filters.dir/build.make:90: CMakeFiles/depthai_filters.dir/src/segmentation_overlay.cpp.o] Error 1
+[0.298s] In file included from [01m[K/home/dronelab/vikram/slam-project/src/depthai_filters/src/spatial_bb.cpp:1[m[K:
+[0.298s] [01m[K/home/dronelab/vikram/slam-project/src/depthai_filters/include/depthai_filters/spatial_bb.hpp:5:10:[m[K [01;31m[Kfatal error: [m[Kmessage_filters/sync_policies/latest_time.hpp: No such file or directory
+[0.298s]     5 | #include [01;31m[K"message_filters/sync_policies/latest_time.hpp"[m[K
+[0.298s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.298s] compilation terminated.
+[0.300s] gmake[2]: *** [CMakeFiles/depthai_filters.dir/build.make:104: CMakeFiles/depthai_filters.dir/src/spatial_bb.cpp.o] Error 1
+[0.302s] [01m[K/home/dronelab/vikram/slam-project/src/depthai_filters/src/features_3d.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Kcv_bridge/cv_bridge.hpp: No such file or directory
+[0.302s]     3 | #include [01;31m[K"cv_bridge/cv_bridge.hpp"[m[K
+[0.302s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.302s] compilation terminated.
+[0.304s] gmake[2]: *** [CMakeFiles/depthai_filters.dir/build.make:146: CMakeFiles/depthai_filters.dir/src/features_3d.cpp.o] Error 1
+[0.304s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/depthai_filters.dir/all] Error 2
+[0.305s] gmake: *** [Makefile:146: all] Error 2
+[0.307s] Invoked command in '/home/dronelab/vikram/slam-project/build/depthai_filters' returned '2': AMENT_PREFIX_PATH=/home/dronelab/vikram/slam-project/install/depthai_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dronelab/vikram/slam-project/install/depthai_ros_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/dronelab/vikram/slam-project/install/depthai_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dronelab/vikram/slam-project/install/depthai_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dronelab/vikram/slam-project/build/depthai_filters -- -j32 -l32

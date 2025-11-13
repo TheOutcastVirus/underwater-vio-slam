@@ -1,0 +1,3 @@
+Invoking command in '/home/dronelab/vikram/slam-project/build/backward_ros': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dronelab/vikram/slam-project/src/ros2-humble-backward-ros -DCMAKE_INSTALL_PREFIX=/home/dronelab/vikram/slam-project/install/backward_ros
+Invoked command in '/home/dronelab/vikram/slam-project/build/backward_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dronelab/vikram/slam-project/src/ros2-humble-backward-ros -DCMAKE_INSTALL_PREFIX=/home/dronelab/vikram/slam-project/install/backward_ros
+Invoking command in '/home/dronelab/vikram/slam-project/build/backward_ros': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dronelab/vikram/slam-project/build/backward_ros -- -j32 -l32

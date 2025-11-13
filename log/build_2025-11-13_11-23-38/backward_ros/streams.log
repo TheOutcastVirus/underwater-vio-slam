@@ -1,0 +1,37 @@
+[0.011s] Invoking command in '/home/dronelab/vikram/slam-project/build/backward_ros': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dronelab/vikram/slam-project/build/backward_ros -- -j32 -l32
+[0.037s] [35m[1mConsolidate compiler generated dependencies of target backward_object[0m
+[0.038s] [35m[1mConsolidate compiler generated dependencies of target backward[0m
+[0.047s] [ 33%] Built target backward_object
+[0.047s] [100%] Built target backward
+[0.057s] Invoked command in '/home/dronelab/vikram/slam-project/build/backward_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dronelab/vikram/slam-project/build/backward_ros -- -j32 -l32
+[0.085s] Invoking command in '/home/dronelab/vikram/slam-project/build/backward_ros': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dronelab/vikram/slam-project/build/backward_ros
+[0.090s] -- Install configuration: ""
+[0.091s] -- Installing: /home/dronelab/vikram/slam-project/install/backward_ros/lib/libbackward.so
+[0.091s] -- Installing: /home/dronelab/vikram/slam-project/install/backward_ros/share/backward_ros/environment/library_path.sh
+[0.091s] -- Installing: /home/dronelab/vikram/slam-project/install/backward_ros/share/backward_ros/environment/library_path.dsv
+[0.091s] -- Installing: /home/dronelab/vikram/slam-project/install/backward_ros/include
+[0.091s] -- Installing: /home/dronelab/vikram/slam-project/install/backward_ros/include/backward_ros
+[0.092s] -- Installing: /home/dronelab/vikram/slam-project/install/backward_ros/include/backward_ros/backward.hpp
+[0.092s] -- Installing: /home/dronelab/vikram/slam-project/install/backward_ros/share/backward_ros/cmake
+[0.092s] -- Installing: /home/dronelab/vikram/slam-project/install/backward_ros/share/backward_ros/cmake/BackwardConfigAment.cmake
+[0.092s] -- Installing: /home/dronelab/vikram/slam-project/install/backward_ros/share/backward_ros/cmake/BackwardConfig.cmake
+[0.092s] -- Installing: /home/dronelab/vikram/slam-project/install/backward_ros/share/ament_index/resource_index/package_run_dependencies/backward_ros
+[0.092s] -- Installing: /home/dronelab/vikram/slam-project/install/backward_ros/share/ament_index/resource_index/parent_prefix_path/backward_ros
+[0.092s] -- Installing: /home/dronelab/vikram/slam-project/install/backward_ros/share/backward_ros/environment/ament_prefix_path.sh
+[0.092s] -- Installing: /home/dronelab/vikram/slam-project/install/backward_ros/share/backward_ros/environment/ament_prefix_path.dsv
+[0.093s] -- Installing: /home/dronelab/vikram/slam-project/install/backward_ros/share/backward_ros/environment/path.sh
+[0.093s] -- Installing: /home/dronelab/vikram/slam-project/install/backward_ros/share/backward_ros/environment/path.dsv
+[0.093s] -- Installing: /home/dronelab/vikram/slam-project/install/backward_ros/share/backward_ros/local_setup.bash
+[0.093s] -- Installing: /home/dronelab/vikram/slam-project/install/backward_ros/share/backward_ros/local_setup.sh
+[0.093s] -- Installing: /home/dronelab/vikram/slam-project/install/backward_ros/share/backward_ros/local_setup.zsh
+[0.093s] -- Installing: /home/dronelab/vikram/slam-project/install/backward_ros/share/backward_ros/local_setup.dsv
+[0.093s] -- Installing: /home/dronelab/vikram/slam-project/install/backward_ros/share/backward_ros/package.dsv
+[0.093s] -- Installing: /home/dronelab/vikram/slam-project/install/backward_ros/share/ament_index/resource_index/packages/backward_ros
+[0.093s] -- Installing: /home/dronelab/vikram/slam-project/install/backward_ros/share/backward_ros/cmake/ament_cmake_export_libraries-extras.cmake
+[0.093s] -- Installing: /home/dronelab/vikram/slam-project/install/backward_ros/share/backward_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.093s] -- Up-to-date: /home/dronelab/vikram/slam-project/install/backward_ros/share/backward_ros/cmake/BackwardConfig.cmake
+[0.094s] -- Up-to-date: /home/dronelab/vikram/slam-project/install/backward_ros/share/backward_ros/cmake/BackwardConfigAment.cmake
+[0.094s] -- Installing: /home/dronelab/vikram/slam-project/install/backward_ros/share/backward_ros/cmake/backward_rosConfig.cmake
+[0.095s] -- Installing: /home/dronelab/vikram/slam-project/install/backward_ros/share/backward_ros/cmake/backward_rosConfig-version.cmake
+[0.095s] -- Installing: /home/dronelab/vikram/slam-project/install/backward_ros/share/backward_ros/package.xml
+[0.095s] Invoked command in '/home/dronelab/vikram/slam-project/build/backward_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dronelab/vikram/slam-project/build/backward_ros

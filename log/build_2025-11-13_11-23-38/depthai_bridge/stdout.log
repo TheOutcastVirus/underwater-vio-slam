@@ -1,0 +1,11 @@
+[35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[35m[1mConsolidate compiler generated dependencies of target depthai_bridge[0m
+[  5%] Built target gtest_main
+[ 10%] Built target gtest
+[ 12%] [32mBuilding CXX object CMakeFiles/depthai_bridge.dir/src/ImgDetectionConverter.cpp.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/depthai_bridge.dir/src/PointCloudConverter.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/depthai_bridge.dir/src/SpatialDetectionConverter.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/depthai_bridge.dir/src/GridMapConverter.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/depthai_bridge.dir/src/ImageConverter.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/depthai_bridge.dir/src/TransformDataConverter.cpp.o[0m

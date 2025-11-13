@@ -1,0 +1,55 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ffmpeg_image_transport_msgs/msg/FFMPEGPacket.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module ffmpeg_image_transport_msgs {
+  module msg {
+    struct FFMPEGPacket {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "original image width")
+      int32 width;
+
+      @verbatim (language="comment", text=
+        "original image height")
+      int32 height;
+
+      @verbatim (language="comment", text=
+        "The \"encoding\" message field is a string with semicolon-separated tokens that" "\n"
+        "indicate the codec (first token) and the image formats used at various stages of the" "\n"
+        "encoding process: \"codec;av_source_pixel_format;cv_bridge_target_format;ros_encoding\"." "\n"
+        "- \"ros_encoding\" is the pixel format used by the original ROS message that was passed to" "\n"
+        "  the \"ffmpeg_encoder_decoder\" module, e.g. \"bgr8\". This token allows the decoder later to restore" "\n"
+        "  the original message format if desired." "\n"
+        "- \"cv_bridge_target_format\" is the pixel format that the cv_bridge converts" "\n"
+        "  the \"ros_encoding\" into, e.g. . This is typically a format that is more suited for ffmpeg compression." "\n"
+        "- \"av_source_pixel_format\" is the pixel format that libswscale converts the \"cv_bridge_target_format\"" "\n"
+        "  into. This token uses libav convention (e.g. \"yuv420p\"), and denotes the pixel format" "\n"
+        "  that is fed into the libav encoder." "\n"
+        "- \"codec\" is the codec used for ultimately encoding the packet, e.g. \"h264\", \"hevc\" etc." "\n"
+        "  Follows libav convention." "\n"
+        "See the ffmpeg_encoder_decoder package for more details" "\n"
+        "encoding used, see above")
+      string encoding;
+
+      @verbatim (language="comment", text=
+        "packet pts")
+      uint64 pts;
+
+      @verbatim (language="comment", text=
+        "packet flags")
+      uint8 flags;
+
+      @verbatim (language="comment", text=
+        "true if machine stores in big endian format")
+      boolean is_bigendian;
+
+      @verbatim (language="comment", text=
+        "ffmpeg compressed payload")
+      sequence<uint8> data;
+    };
+  };
+};

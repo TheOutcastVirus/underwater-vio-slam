@@ -1,0 +1,33 @@
+[35m[1mConsolidate compiler generated dependencies of target backward_object[0m
+[35m[1mConsolidate compiler generated dependencies of target backward[0m
+[ 33%] Built target backward_object
+[100%] Built target backward
+-- Install configuration: ""
+-- Installing: /home/dronelab/vikram/slam-project/install/backward_ros/lib/libbackward.so
+-- Installing: /home/dronelab/vikram/slam-project/install/backward_ros/share/backward_ros/environment/library_path.sh
+-- Installing: /home/dronelab/vikram/slam-project/install/backward_ros/share/backward_ros/environment/library_path.dsv
+-- Installing: /home/dronelab/vikram/slam-project/install/backward_ros/include
+-- Installing: /home/dronelab/vikram/slam-project/install/backward_ros/include/backward_ros
+-- Installing: /home/dronelab/vikram/slam-project/install/backward_ros/include/backward_ros/backward.hpp
+-- Installing: /home/dronelab/vikram/slam-project/install/backward_ros/share/backward_ros/cmake
+-- Installing: /home/dronelab/vikram/slam-project/install/backward_ros/share/backward_ros/cmake/BackwardConfigAment.cmake
+-- Installing: /home/dronelab/vikram/slam-project/install/backward_ros/share/backward_ros/cmake/BackwardConfig.cmake
+-- Installing: /home/dronelab/vikram/slam-project/install/backward_ros/share/ament_index/resource_index/package_run_dependencies/backward_ros
+-- Installing: /home/dronelab/vikram/slam-project/install/backward_ros/share/ament_index/resource_index/parent_prefix_path/backward_ros
+-- Installing: /home/dronelab/vikram/slam-project/install/backward_ros/share/backward_ros/environment/ament_prefix_path.sh
+-- Installing: /home/dronelab/vikram/slam-project/install/backward_ros/share/backward_ros/environment/ament_prefix_path.dsv
+-- Installing: /home/dronelab/vikram/slam-project/install/backward_ros/share/backward_ros/environment/path.sh
+-- Installing: /home/dronelab/vikram/slam-project/install/backward_ros/share/backward_ros/environment/path.dsv
+-- Installing: /home/dronelab/vikram/slam-project/install/backward_ros/share/backward_ros/local_setup.bash
+-- Installing: /home/dronelab/vikram/slam-project/install/backward_ros/share/backward_ros/local_setup.sh
+-- Installing: /home/dronelab/vikram/slam-project/install/backward_ros/share/backward_ros/local_setup.zsh
+-- Installing: /home/dronelab/vikram/slam-project/install/backward_ros/share/backward_ros/local_setup.dsv
+-- Installing: /home/dronelab/vikram/slam-project/install/backward_ros/share/backward_ros/package.dsv
+-- Installing: /home/dronelab/vikram/slam-project/install/backward_ros/share/ament_index/resource_index/packages/backward_ros
+-- Installing: /home/dronelab/vikram/slam-project/install/backward_ros/share/backward_ros/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/dronelab/vikram/slam-project/install/backward_ros/share/backward_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/dronelab/vikram/slam-project/install/backward_ros/share/backward_ros/cmake/BackwardConfig.cmake
+-- Up-to-date: /home/dronelab/vikram/slam-project/install/backward_ros/share/backward_ros/cmake/BackwardConfigAment.cmake
+-- Installing: /home/dronelab/vikram/slam-project/install/backward_ros/share/backward_ros/cmake/backward_rosConfig.cmake
+-- Installing: /home/dronelab/vikram/slam-project/install/backward_ros/share/backward_ros/cmake/backward_rosConfig-version.cmake
+-- Installing: /home/dronelab/vikram/slam-project/install/backward_ros/share/backward_ros/package.xml

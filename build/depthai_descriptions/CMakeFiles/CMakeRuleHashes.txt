@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+37c48fb2bcddd353dbb7b32a22ec14bc CMakeFiles/depthai_descriptions_uninstall

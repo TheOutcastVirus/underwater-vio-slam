@@ -1,0 +1,19 @@
+[  2%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[  5%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/depthai_bridge.dir/src/TFPublisher.cpp.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/depthai_bridge.dir/src/BaseConverter.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/depthai_bridge.dir/src/ImuConverter.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/depthai_bridge.dir/src/DisparityConverter.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/depthai_bridge.dir/src/GridMapConverter.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/depthai_bridge.dir/src/ImageConverter.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/depthai_bridge.dir/src/TrackDetectionConverter.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/depthai_bridge.dir/src/ImgDetectionConverter.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/depthai_bridge.dir/src/SpatialDetectionConverter.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/depthai_bridge.dir/src/PointCloudConverter.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/depthai_bridge.dir/src/TransformDataConverter.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/depthai_bridge.dir/src/TrackSpatialDetectionConverter.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o[0m
+[ 40%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 40%] Built target gtest_main
+[ 42%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 42%] Built target gtest
